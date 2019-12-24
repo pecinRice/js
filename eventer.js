@@ -1,0 +1,1 @@
+var x='clearfix ',d=''; [...document.getElementsByClassName(x)].forEach(a=>{if(a.className==x||a.className==x+'past'){var b=a.getElementsByTagName('p')[0];var c=a.getElementsByTagName('h4')[0]; e=a.getElementsByClassName('actor')[0]; if(b){d=`${b.innerText.replace(/(\().+(\))/g, "")}${c.innerText}【${e.innerText.replace(/(\r?\n)|(出演者: )/g,"")}】\r\n`+d}}});console.log(d);
